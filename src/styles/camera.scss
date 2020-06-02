@@ -1,0 +1,11 @@
+.webcam-stream {
+  margin: 0px auto;
+	width: 100vw;
+	height: 100vh;
+  
+  &__video {
+    width: 100vw;
+    height: 100vh;
+    background-color: #666;
+  }
+}

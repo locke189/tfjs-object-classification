@@ -1,0 +1,15 @@
+{
+  "name": "tfjs-object-classification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:locke189/tfjs-object-classification.git",
+  "author": "Juan Insuasti",
+  "scripts": {
+    "start": "parcel src/*.html --https"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.7"
+  }
+}
