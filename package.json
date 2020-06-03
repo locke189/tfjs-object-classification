@@ -5,14 +5,19 @@
   "repository": "git@github.com:locke189/tfjs-object-classification.git",
   "author": "Juan Insuasti",
   "scripts": {
-    "start": "parcel src/*.html --https"
+    "start": "parcel src/*.html src/public/**/* --https"
   },
   "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.4",
     "sass": "^1.26.7"
   },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
   "dependencies": {
+    "@babel/polyfill": "^7.10.1",
     "@tensorflow/tfjs": "^2.0.0"
   }
 }
