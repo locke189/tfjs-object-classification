@@ -5,8 +5,8 @@ export default () => {
   console.log(classes);
   var videoElement = document.querySelector("#videoElement");
 
-  videoElement.width = videoElement.videoWidth;
-  videoElement.height = videoElement.videoHeight;
+  videoElement.width = '224px';
+  videoElement.height = '224px';
 
   if (navigator.mediaDevices.getUserMedia) {
     navigator.mediaDevices.getUserMedia({ video: true })

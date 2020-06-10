@@ -50,7 +50,7 @@ export default async () => {
   console.log(valueArray);
 
   const results = valueArray.filter((element) => element.value > THERESHOLD);
-  
+
   const NO_RESULT = '¯\\_(ツ)_/¯';
 
 
